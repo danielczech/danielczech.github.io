@@ -1,7 +1,12 @@
 * {
     box-sizing: border-box;
   }
- 
+
+  @font-face {
+  font-family: icon-font;
+  src: url(../fonts/icon-font.ttf);
+  }
+
   body { 
     /*Image from: https://www.spacetelescope.org*/
     background: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url("../img/heic0719a.jpg");
@@ -9,9 +14,17 @@
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-     margin: 0; 
-     padding: 0; 
-     font-family: "Verdana", sans-serif; 
+    margin: 0; 
+    padding: 0; 
+    font-family: "Verdana", sans-serif; 
+  }
+
+  a:link {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
   }
 
   p {
@@ -20,6 +33,7 @@
   } 
 
   img {
+    /*border: 1px solid #FFF;*/
     border-radius: 50%;
     /*margin-left: auto;*/
     /*margin-right: auto;*/
@@ -32,8 +46,22 @@
     padding-bottom: 0.1%;
   }
 
+  .icons{
+    font-family:icon-font;
+    font-size: 2em;
+  }
+
+  .toppar{
+    text-align: right;
+    margin-right: 1em;
+    margin-bottom: 0em;
+    font-family:icon-font;
+    font-size: 1em;
+  }
+
   .name{
     font-size: 3em;
+    margin-bottom: 0em;
   }
 
   .text{
@@ -41,7 +69,7 @@
   }
 
   .links{
-    font-size: 1.7em;
+    font-size: 1.3em;
     font-weight: bold;
   }
 
@@ -85,11 +113,10 @@
 
 .column_left {
     text-align: right;
-    /*padding-left: 10%;*/
     float: left;
-    width: 45%;
-    padding-left: 5%;
-    padding-right: 2%;
+    width: 40%;
+    padding-left: 3%;
+    padding-right: 1.5%;
     padding-top: 2%
   }
   
@@ -97,10 +124,10 @@
     /*text-align: center;*/
     /*padding-left: 10%;*/
     float: left;
-    width: 55%;
-    padding-left: 2%;
-    padding-right: 5%;
-    padding-top: 4%;
+    width: 60%;
+    padding-left: 1.5%;
+    padding-right: 3%;
+    padding-top: 3%;
   }
 
   .row:after {
