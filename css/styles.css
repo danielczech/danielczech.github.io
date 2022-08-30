@@ -46,17 +46,24 @@
     padding-bottom: 0.1%;
   }
 
+  .navbar {
+    text-align: right;
+    margin-top: 0em;
+    font-family:icon-font;
+    font-size: 1.1em;
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, 0.8);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding-right: 1em;
+    padding-top: 0.1em;
+    padding-bottom: 0.1em;
+  }
+
   .icons{
     font-family:icon-font;
     font-size: 2em;
-  }
-
-  .toppar{
-    text-align: right;
-    margin-right: 1em;
-    margin-bottom: 0em;
-    font-family:icon-font;
-    font-size: 1em;
   }
 
   .name{
@@ -111,7 +118,7 @@
     list-style-type:none;
   }
 
-.column_left {
+  .column_left {
     text-align: right;
     float: left;
     width: 40%;
