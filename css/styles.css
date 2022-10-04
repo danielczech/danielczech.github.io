@@ -9,7 +9,7 @@
 
   body { 
     /*Image from: https://www.spacetelescope.org*/
-    background: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url("../img/heic0719a.jpg");
+    background: linear-gradient(rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.75)), url("../img/heic0719a.jpg");
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -21,6 +21,7 @@
 
   a:link {
     text-decoration: none;
+    color: #3b81ea;
   }
   
   a:hover {
@@ -47,10 +48,10 @@
   }
 
   .navbar {
-    text-align: right;
-    margin-top: 0em;
     font-family:icon-font;
     font-size: 1.1em;
+    text-align: right;
+    margin-top: 0em;
     overflow: hidden;
     background-color: rgba(255, 255, 255, 0.8);
     position: fixed;
@@ -67,23 +68,22 @@
   }
 
   .name{
-    font-size: 3em;
+    font-size: 2em;
     margin-bottom: 0em;
   }
 
   .text{
-    font-size: 1.7em;
-  }
-
-  .links{
-    font-size: 1.3em;
-    font-weight: bold;
+    font-size: 1.1em;
   }
 
   .keywords{
-    font-size: 1.3em;
+    font-size: 1em;
   }
 
+  .links{
+    font-size: 1em;
+    /* font-weight: bold; */
+  }
 
   .index_col {
     text-align: center;
@@ -91,6 +91,7 @@
 
   .single_col {
     text-align: center;
+    font-weight: normal;
   }
 
   .sidecol {
@@ -122,7 +123,7 @@
     text-align: right;
     float: left;
     width: 40%;
-    padding-left: 3%;
+    padding-left: 10%;
     padding-right: 1.5%;
     padding-top: 2%
   }
@@ -133,7 +134,7 @@
     float: left;
     width: 60%;
     padding-left: 1.5%;
-    padding-right: 3%;
+    padding-right: 10%;
     padding-top: 3%;
   }
 
@@ -145,10 +146,11 @@
   
   @media screen and (max-width: 800px) {
     .column_left {
+      text-align: center;
       float: center;
       width: 100%;
-      padding-left: 15%;
-      padding-right: 15%;
+      padding-left: 20%;
+      padding-right: 20%;
     }
     .column_right {
       float: center;
