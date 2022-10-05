@@ -64,7 +64,7 @@
 
   .icons{
     font-family:icon-font;
-    font-size: 2em;
+    font-size: 1.8em;
   }
 
   .name{
@@ -77,11 +77,11 @@
   }
 
   .keywords{
-    font-size: 1em;
+    font-size: 1.1em;
   }
 
   .links{
-    font-size: 1em;
+    font-size: 1.1em;
     /* font-weight: bold; */
   }
 
