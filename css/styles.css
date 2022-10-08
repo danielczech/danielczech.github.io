@@ -68,21 +68,28 @@
   }
 
   .name{
-    font-size: 2em;
+    font-size: 1.8em;
     margin-bottom: 0em;
   }
 
   .text{
-    font-size: 1.1em;
+    font-size: 1em;
   }
 
   .keywords{
-    font-size: 1.1em;
+    font-size: 1em;
   }
 
   .links{
     font-size: 1.1em;
     /* font-weight: bold; */
+  }
+
+  .text_page {
+    text-align: justify;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 2em;
   }
 
   .index_col {
@@ -135,7 +142,7 @@
     width: 60%;
     padding-left: 1.5%;
     padding-right: 10%;
-    padding-top: 3%;
+    padding-top: 2%;
   }
 
   .row:after {
